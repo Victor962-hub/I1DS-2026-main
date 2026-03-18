@@ -8,6 +8,7 @@ function somar(valor1, valor2) {
   return valor1 + valor2;
 }
 
+
 console.log("5 + 3 =", somar(5, 3));
 console.log("15 + 32 =", somar(15, 32));
 
@@ -58,3 +59,4 @@ console.log("Total do Pedido:", totalPedido);
 console.log("Total do Desconto:", totalDesconto);
 console.log("Valor Final do Pedido:", valorFinal);
 console.log("------------------------------------------");
+se
