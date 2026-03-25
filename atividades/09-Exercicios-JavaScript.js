@@ -1,3 +1,4 @@
+//1.
 var nome = "José";
 var idade = 17;
 var cidade = "Jahú";
@@ -6,7 +7,7 @@ console.log("Meu nome é", nome, ", tenho", idade, "anos e moro em", cidade);
 console.log(
   "-----------------------------------------------------------------",
 );
-
+//2.
 let num1 = 9;
 let num2 = 5;
 
@@ -22,20 +23,20 @@ console.log("O resultado da multiplicação é", multiplicacao);
 console.log("O resultado da Divisão é", divisao);
 console.log("O resultado do Resto da Divisão é", restoDivisao);
 
-console.log("----------------------------------------------------")
-
+console.log("----------------------------------------------------");
+//3.
 function calcularArea(largura, altura) {
   return largura * altura;
 }
 
-let largura = 15
-let altura = 7
+let largura = 15;
+let altura = 7;
 
 let area = calcularArea(largura, altura);
 console.log("A Aréa de um retangulo é", area);
 
-
-console.log("-------------------------------------------")
+console.log("-------------------------------------------");
+//4.
 function calcularVolume(Comprimento, largura, altura) {
   return Comprimento * largura * altura;
 }
@@ -46,6 +47,80 @@ let Altura = 4;
 let volume = calcularVolume(Comprimento, Largura, Altura);
 console.log("Volume do paralelepípedo:", volume);
 
+console.log("-------------------------------------------------");
 
-console.log("-------------------------------------------------")
+//5.
+let valor = 100;
+let desconto = 10 / 100;
+
+console.log(
+  "O valor do produto com o desconto foi:",
+  valor - valor * desconto,
+  "Reias",
+);
+
+console.log("--------------------------------------------------");
+
+// 6.
+
+function converterCelsiusParaFahrenheit(celsius) {
+  let fahrenheit = celsius * 1.8 + 32;
+  return fahrenheit;
+}
+
+let temperaturaC = 25;
+let temperaturaF = converterCelsiusParaFahrenheit(temperaturaC);
+
+console.log(`${temperaturaC}°C é igual a ${temperaturaF}°F`);
+
+console.log("--------------------------------------------------");
+
+// 7.
+
+let peso = 67;
+let ALtura = 167;
+
+console.log("O IMC será", peso / (ALtura * ALtura));
+
+console.log("--------------------------------------------------");
+
+//8.
+
+function final(n1, n2, n3) {
+  let media = (n1 + n2 + n3) / 3;
+  let situacao;
+
+  if (media < 5) situacao = "Recuperação";
+  else if (media < 7) situacao = "Recuperação";
+  else situacao = "Aprovado";
+
+  return "Média: " + media + " - situação: " + situacao;
+}
+console.log(final(7, 8, 6));
+
+console.log("--------------------------------------------");
+
+//9.
+
+let a = 2;
+let b = 3;
+let c = -5;
+
+let delta = Math.pow(b, 2) - 4 * a * c;
+
+console.log("O valor de Delta é: " + delta);
+console.log("--------------------------------------------");
+
+//10.
+
+var horas = 3600;
+var Divisao = horas / 60;
+var segundos = horas / 1;
+
+console.log("A quantidade de uma Hora para Minutos é:", Divisao);
+console.log("A quantidade de uma Hora para Segundos é:", segundos);
+
+console.log("--------------------------------------------");
+
+//11.
 
