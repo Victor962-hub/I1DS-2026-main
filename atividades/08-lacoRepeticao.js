@@ -20,7 +20,7 @@ for (let i = 0; i < numeros.length; i++) {
   numeros[i] *= 3; // numeros[i] = numeros[i] * 3
 }
 console.table(numeros);
-
+console.log("-------------------------------------------------------------------")
 // Dada uma matriz 2x3, imprima todos os seus elementos com as respectivas posições
 let matriz = [
   [8, 4, 1],
