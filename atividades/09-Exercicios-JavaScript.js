@@ -507,11 +507,52 @@ console.log("--------------------------------------------")
 
 //36. 
 
+const numeros = [5, 6, 8, 9, 10, 11, 3, 21, 13,21];
+for (let i = 0; i < numeros.length; i++) {
+    console.log(numeros[i]);
+}
+
+
+//37. 
+var numerosVetor = [5, 6, 8, 14, 0, 6, 9, 7, 2];
+let somaVetor = 0;
+
+for (let i = 0; i < numerosVetor.length; i++) {
+  somaVetor += numerosVetor[i];
+}
+
+console.log(somaVetor);
+
+// 38. 
+const VetorMedia = [12, 45, 78, 34, 89, 23, 56, 91, 10, 67];
+
+const somaVetor1 = VetorMedia.reduce((total, atual) => total + atual, 0);
+const mediaVetor = somaVetor1 / VetorMedia.length;
+
+console.log(mediaVetor);
+
+//39.
+
+const VetorMedia1 = [12, 45, 78, 2, 90, 33, 56, 8, 100, 21];
+
+const maiorValor = Math.max(...VetorMedia1);
+
+console.log(maiorValor);
+
+//40.
+
+const VetorMedia2 = [10, 20, 30, 45, 5.5, 60, 77, 88, 90, 100];
+
+const menorValor = Math.min(...VetorMedia2);
+
+console.log(menorValor);
+
+
 console.log("---------------------------------------------------")
 
-//41
+//41.
 
-let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let nUmeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let pares = 0;
 let impares = 0;
@@ -529,7 +570,7 @@ console.log("Quantidade de números ímpares:", impares);
 
 console.log("------------------------------------------");
 
-//42
+//42.
 
 let vetor = [1, 2, 3, 4, 5];
 let resultado = [];
@@ -544,7 +585,7 @@ console.table(resultado);
 
 console.log("------------------------------------------")
 
-//43
+//43.
 let Matriz = [
 [7, 6, 5],
 [8, 4, 6],
@@ -553,7 +594,7 @@ let Matriz = [
 console.table(Matriz);
 
 console.log("------------------------------------------");
-//44
+//44.
 let matris = [
 [7, 6 ,5],
 [8, 4, 6],
@@ -604,9 +645,26 @@ console.log("Soma total:", soma);
 
 console.log("-------------------------------------------")
 
+//47
+const MaTriz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]
 
+let MAior = MaTriz[0][0];
 
-console.log("-------------------------------------------");
+for (let i = 0; i < MaTriz.length; i++) {
+  for (let j = 0; j < MaTriz[i].length; j++) {
+    if (MaTriz[i][j] > MAior) {
+      MAior = MaTriz[i][j];
+    }
+  }
+}
+
+console.log(MAior);
+
+  console.log("-------------------------------------------");
 //48
 let matriZ = [
 [1, 2, 3],
@@ -636,7 +694,25 @@ for (let linha = 0; linha < 3; linha++) {
 console.log(matriZ[linha]);
 }
 
+console.log("--------------------------------------------------");
+//49
+let maTriz = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
 
+let contador = 0;
+
+for (let i = 0; i < maTriz.length; i++) {
+for (let j = 0; j < maTriz.length; j++) {
+if (matriz[i][j] > 10) {
+contador ++;
+}
+}
+}
+
+console.log(contador);
 console.log("------------------------------------------");
 
 //50
