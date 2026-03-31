@@ -123,4 +123,506 @@ console.log("A quantidade de uma Hora para Segundos é:", segundos);
 console.log("--------------------------------------------");
 
 //11.
+let numero = -5;
+
+if (numero > 0) {
+    console.log("Número positivo");
+} else if (numero < 0) {
+    console.log("Número negativo");
+} else {
+    console.log("Número é zero");
+}
+
+console.log("----------------------------------");
+//12
+let num = 7;
+
+if (numero % 2 === 0) {
+    console.log("Número par");
+} else {
+    console.log("Número ímpar");
+}
+ 
+console.log("----------------------------------");
+//13
+let nume = 9;
+
+if (numero % 3 === 0) {
+    console.log("É múltiplo de 3");
+} else {
+    console.log("Não é múltiplo de 3");
+}
+console.log("-----------------------------------");
+//14
+let nota = 6;
+
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+console.log("------------------------------------");
+//15
+let Idade = 20;
+
+if (Idade < 16) {
+    console.log("Não pode votar");
+} else if (Idade < 18) {
+    console.log("Voto opcional");
+} else if (Idade < 70) {
+    console.log("Voto obrigatório");
+} else {
+    console.log("Voto opcional");
+}
+
+console.log("--------------------------------");
+//16
+let numer = 34
+
+if (numer < 10){
+console.log("Não está entre os selecionados");
+} else if (numer >= 11) {
+  console.log("Está entre os selecionados");
+} else if (numer < 50) {
+console.log("Está entre os selecionados");
+} else if (numer >= 51) {
+  console.log("Não está entre os selecionados");
+} else {
+}
+
+console.log("-----------------------------------");
+
+//17
+const log = "toptop"
+const sen = "75676"
+
+let logUser = "toptop"
+let senUser = "75676"
+
+if (logUser == log && senUser == sen) {
+  console.log("Login efetuado com sucesso!");
+}
+
+console.log("---------------------------------");
+//18
+let nume1 = 4;
+let nume2 = 5;
+
+if (nume1  > nume2) {
+  console.log("O maior número é:", nume1);
+} else if (nume2 > nume1) {
+  console.log("O maior número é:", nume2);
+} else {
+  console.log("Os números são iguais");
+}
+
+console.log("------------------------------------------");
+
+//19
+let numer1 = 4;
+let numer2 = 5;
+let numer3 = 10;
+
+if (numer1 >= numer2 && numer1 >= num3) {
+  console.log("O maior número é:", numer1);
+} else if (numer2 >= numer2 && numer1 >= numer3) {
+  console.log("O maior número é:", numer2);
+} else {
+  console.log("O maior número é:", numer3);
+}
+
+console.log("--------------------------------------------")
+
+//20
+let idad = 30;
+
+if (idad <= 12) {
+  console.log("Criança");
+} else if (idad <= 17) {
+  console.log("Adolescente");
+} else if (idad <= 59) {
+  console.log("Adulto");
+} else {
+  console.log("Idoso");
+}
+
+console.log("-------------------------------------------");
+
+//21
+
+let dia = 7;
+switch (dia) {
+  case 1:
+    console.log("Domingo");
+    break;
+  case 2:
+    console.log("Segunda");
+    break;
+  case 3:
+    console.log("Terça-feira");
+    break;
+  case 4:
+    console.log("Quarta-feira");
+    break;
+  case 5:
+    console.log("Quinta-feira");
+    break;
+  case 6:
+    console.log("Sexta-feira");
+    break;
+  case 7:
+    console.log("Sábado");
+    break;
+}
+
+console.log("---------------------------------------");
+
+//22
+
+let mes = 7;
+switch (mes) {
+  case 1:
+    console.log("Janeiro");
+    break;
+  case 2:
+    console.log("Fevereiro");
+    break;
+  case 3:
+    console.log("Março");
+    break;
+  case 4:
+    console.log("Abril");
+    break;
+  case 5:
+    console.log("Maio");
+    break;
+  case 6:
+    console.log("Junho");
+    break;
+  case 7:
+    console.log("Julho");
+    break;
+  case 8:
+    console.log("Agosto");
+    break;
+  case 9:
+    console.log("Setembro");
+    break;
+  case 10:
+    console.log("Outubro");
+    break;
+  case 11:
+    console.log("Novembro");
+    break;
+  case 12:
+    console.log("Dezembro");
+    break;
+}
+
+console.log("---------------------------------------");
+
+//23
+let Mes = 11;
+switch (Mes) {
+  case 1:
+  case 2:
+  case 3:
+    console.log("Primeiro trimestre!");
+    break;
+  case 4:
+  case 5:
+  case 6:
+    console.log("Segundo trimestre");
+    break;
+  case 7:
+  case 8:
+  case 9:
+    console.log("Terceiro trimestre");
+    break;
+  case 10:
+  case 11:
+  case 12:
+    console.log("Quarto trimestre");
+    break;
+  default:
+}
+
+console.log("-----------------------------------------");
+//24
+let opcao = 1; // escolha do usuário
+
+let numero1 = 10;
+let numero2 = 5;
+
+switch (opcao) {
+  case 1:
+    console.log("Soma:", numero1 + numero2);
+    break;
+
+  case 2:
+    console.log("Subtração:", numero1 - numero2);
+    break;
+
+  case 3:
+    console.log("Multiplicação:", numero1 * numero2);
+    break;
+
+  case 4:
+    console.log("Divisão:", numero1 / numero2);
+    break;
+
+  default:
+    console.log("Opção inválida");
+}
+console.log("---------------------------------------------------");
+
+//25
+let notas = "A";
+
+switch (notas) {
+  case "A":
+    console.log("Excelente");
+    break;
+
+  case "B":
+    console.log("Bom");
+    break;
+
+  case "C":
+    console.log("Regular");
+    break;
+
+  case "D":
+    console.log("Ruim");
+    break;
+
+  default:
+    console.log("Nota inválida");
+}
+console.log("-------------------------------------------");
+
+//26
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
+console.log("--------------------------------");
+//27
+for (let i = 100; i >= 1; i--) {
+  console.log(i);
+}
+console.log("---------------------------------");
+//28
+for (let i = 0; i <= 50; i += 2) {
+  console.log(i);
+}
+
+console.log("---------------------------------");
+
+//29
+for (let i = 1; i <= 50; i += 2) {
+  console.log(i);
+}
+
+console.log("---------------------------------");
+
+//30.
+
+let mais = 0;
+
+for (let i = 1; i <= 100; i++) {
+  mais += i; // mesma coisa que soma = soma + i
+}
+
+console.log("Soma total:", mais);
+
+
+//31.
+
+function fatorial(n) {
+    let resultado = 1;
+
+    for (let i = 1; i <= n; i++) {
+        resultado *= i;
+    }
+
+    return resultado;
+}
+
+let Numero = 5;
+console.log("Fatorial:", fatorial(numero));
+
+console.log("-------------------------------------------")
+
+//32.
+
+function fatorial(n) {
+    if (n < 0) {
+        return "Número inválido";
+    }
+
+    let resultado = 1;
+
+    for (let i = 1; i <= n; i++) {
+        resultado *= i;
+    }
+
+    return resultado;
+}
+
+console.log(fatorial(5));
+
+//33.
+
+for (let i = 0; i <= 100  ; i += 2) {
+  console.log(i);
+}
+
+console.log("Entre o 1 ao 100 tem 50 números pares.")
+
+console.log("-------------------------------------------")
+
+//34.
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 5 === 0) {
+    console.log(i);
+  }
+}
+console.log("-------------------------------------------")
+
+
+//35.
+
+for (let i = 1; i <= 5; i++) {
+  let linha = '';
+  for (let j = 1; j <= i; j++) {
+    linha += '*';
+  }
+  console.log(linha);
+}
+
+console.log("--------------------------------------------")
+
+//36. 
+
+console.log("---------------------------------------------------")
+
+//42
+
+let vetor = [1, 2, 3, 4, 5];
+let resultado = [];
+
+for (let i = 0; i < vetor.length; i++) {
+if (vetor[i] !== undefined) {
+resultado[i] = vetor[i] * 2;
+}
+}
+
+console.table(resultado);
+
+console.log("------------------------------------------")
+
+//43
+let Matriz = [
+[7, 6, 5],
+[8, 4, 6],
+[2, 9, 1],
+];
+console.table(Matriz);
+
+console.log("------------------------------------------");
+//44
+let matris = [
+[7, 6 ,5],
+[8, 4, 6],
+[2, 9, 1],
+];
+
+console.log("A diagonal da matriz é:");
+for (let i = 0; i < matris.length; i++) {
+console.log(matris[i][i]);
+}
+
+console.log("------------------------------------------")
+//45
+
+let matriz = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
+
+let tamanho = matriz.length;
+
+for (let i = 0; i < tamanho; i++) {
+for (let j = 0; j < tamanho; j++) {
+if (i + j === tamanho - 1) {
+console.log(matriz[i][j]);
+}
+}
+}
+console.log("-------------------------------------------")
+
+//46.
+const MAtriz = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+let somar = 0;
+
+for (let i = 0; i < MAtriz.length; i++) {
+  for (let j = 0; j < MAtriz[i].length; j++) {
+    soma += MAtriz[i][j];
+  }
+}
+
+console.log("Soma total:", soma);
+
+console.log("-------------------------------------------")
+
+//48
+let matriZ = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+];
+
+
+let x = 2;
+
+
+console.log("MatriZ original:");
+for (let i = 0; i < 3; i++) {
+console.log(matriZ[i]);
+}
+
+// Multiplicar os valores
+for (let linha = 0; linha < 3; linha++) {
+for (let coluna = 0; coluna < 3; coluna++) {
+matriZ[linha][coluna] = matriZ[linha][coluna] * x;
+}
+}
+
+// Mostrar matriz depois
+console.log("MatriZ depois da multiplicação:");
+for (let linha = 0; linha < 3; linha++) {
+console.log(matriZ[linha]);
+}
+
+
+console.log("------------------------------------------");
+
+//50
+let MatriZ = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9],
+];
+console.table(MatriZ)
+
+console.log("--------------------------------------------");
 
