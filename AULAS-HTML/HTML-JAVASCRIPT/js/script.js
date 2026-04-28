@@ -45,7 +45,3 @@ const mudarTexto = () => {
   document.getElementById("resultado").innerHTML = result;
 };
 
-
-
-    
- 
