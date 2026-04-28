@@ -13,7 +13,7 @@ const cadastrar = (event) => {
   let lista = document.getElementById("lista");
   // Criar um novo elemento <li>Nome - Email</li>
   let novoItem = document.createElement("li");
-  novoItem.innerHTML = `${id} 
+  novoItem.innerHTML = ${id} 
     ${nome} - ${email} - <p onClick=editar(${id})class='btn'>Editar</p> <p onClick=excluir(${id}) class='btn'>Excluir</p>';
     
 
