@@ -4,11 +4,6 @@ const cadastrar = (event) => {
   // Capturar os valores do elementos por Id
   let nome = document.getElementById("nome").value;
   let email = document.getElementById("email").value;
-  let Editar = document.getElementById("Editar").value;
-  let Deletar = document.getElementById("Deletar").value;
-
-  userCount++;
-  let id = userCount;
   // Capturando o elemento de lista por Id
   let lista = document.getElementById("lista");
   // Criar um novo elemento <li>Nome - Email</li>
