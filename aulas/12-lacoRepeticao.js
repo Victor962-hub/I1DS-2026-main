@@ -65,3 +65,5 @@ while (num < 10 ) {
   console.log('somando...', somar);
   console.log('Numero...',num);
 }
+
+//var i = 0 
