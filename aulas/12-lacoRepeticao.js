@@ -66,4 +66,3 @@ while (num < 10 ) {
   console.log('Numero...',num);
 }
 
-//var i = 0 
