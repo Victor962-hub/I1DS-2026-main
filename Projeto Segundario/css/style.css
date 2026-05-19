@@ -1,0 +1,9 @@
+body{
+   color: var(--texto);
+  background:
+    linear-gradient(rgba(4, 37, 66, 0.85), rgba(36, 36, 36, 0.91)),
+    url("../img/fundin\ 2.avif");
+
+  background-attachment: fixed;
+  background-size: 500px;
+}
