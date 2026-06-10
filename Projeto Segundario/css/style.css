@@ -1,9 +1,15 @@
-body{
-   color: var(--texto);
-  background:
-    linear-gradient(rgba(4, 37, 66, 0.85), rgba(36, 36, 36, 0.91)),
-    url("../img/fundin\ 2.avif");
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
 
-  background-attachment: fixed;
-  background-size: 500px;
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
 }
