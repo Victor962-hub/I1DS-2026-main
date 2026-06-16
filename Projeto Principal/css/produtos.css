@@ -71,6 +71,7 @@ nav a:hover {
   align-items: center;
   gap: 80px;
   padding: 50px;
+  
 }
 
 .hero-content {
@@ -355,6 +356,7 @@ body {
   justify-content: space-evenly;
   margin-top: 48px;
   margin: 48px, 220px, 12px, 220px;
+
 }
 
 .card-produtos {
@@ -409,11 +411,37 @@ body {
     flex-direction: column;
   }
 
-  .menu {
+  #menu {
     display: none;
   }
 
   .menu-mobile {
+    display: none;
+  }
+  #menu-btn {
     display: block;
   }
-}
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    flex-direction: column;
+    background: var(--claro);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+  }
+  nav.ativo {
+    display: flex;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }}

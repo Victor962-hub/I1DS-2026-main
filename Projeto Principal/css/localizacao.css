@@ -307,44 +307,7 @@ footer {
   padding: 50px 20px;
   margin-top: 60px;
 }
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-#menu-btn {
-display: block;
-}
 
-nav{
-display: none;
-position: absolute;
-top: 85px;
-right: 20px;
-flex-direction: column;
-background: var(--claro);
-padding: 25px;
-border-radius: 20px;
-box-shadow: var(--sombra);
-}
-nav.ativo{
-display: flex;
-}
-.hero h1 {
-font-size: 38px;
-}
-.hero p{
-font-size: 18px;
-}
-h2 {
-font-size: 24px;
-}
-.galeria{
-grid-template-columns: 1fr;
-justify-content: center;
-}
-}
-/* RESPONSIVIDADE - TABLET */
-@media (min-width: 768px)and (max-width: 425px) {
-
-}
 /* Celular */
 @media (max-width: 768px) {
   .container {
@@ -355,11 +318,49 @@ justify-content: center;
     flex-direction: column;
   }
 
-  .menu {
+  #menu {
     display: none;
   }
 
   .menu-mobile {
+    display: none;
+  }
+  #menu-btn {
     display: block;
   }
-}
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    flex-direction: column;
+    background: var(--claro);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+  }
+  nav.ativo {
+    display: flex;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .quadrado{
+  display: none;
+  }
+  .hero-button{
+  display: flex;
+  gap: 30px;
+  }
+  .conteudo{
+  height: 400px;
+  width: 430px;
+  }
+  }

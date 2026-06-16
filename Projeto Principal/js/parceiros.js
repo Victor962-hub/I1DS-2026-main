@@ -36,3 +36,29 @@ darkBtn.addEventListener("click", () => {
   }
 
 });
+
+
+document.getElementById("formContato").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  let nome = document.getElementById("nome").value.trim();
+  let telefone = document.getElementById("telefone").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let mensagem = document.getElementById("mensagem").value.trim();
+
+  if (nome == "" || telefone == "" || email == "" || mensagem == "") {
+    alert("Preencha todos os campos!");
+    return;
+  } else {
+    alert("Mensagem enviada com sucesso!");
+  }
+
+  this.reset();
+
+  // LIMPAR CAMPOS
+  document.getElementById("nome").value = "";
+  document.getElementById("telefone").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("mensagem").value = "";
+
+});
