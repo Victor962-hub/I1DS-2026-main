@@ -1,13 +1,13 @@
 :root {
   --primaria: #ffffff;
   --secundaria: #4d4d4d;
-  --terciaria: #000000; 
+  --terciaria: #000000;
   --escuro: #0f172a;
   --claro: #ffffff;
   --texto: #334155;
   --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
   --radius: 20px;
-  gradienBody: rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.91);
+  gradienbody: rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.91);
 }
 \* {
   margin: 0;
@@ -142,7 +142,6 @@ nav a:hover {
   align-items: center;
   gap: 40px;
   padding: 60px;
-  
 }
 
 .texto {
@@ -174,8 +173,7 @@ footer {
   margin-top: 60px;
 }
 
-
-.destaques{
+.destaques {
   margin-top: 5%;
   font-size: 35px;
   margin-bottom: 20px;
@@ -183,8 +181,8 @@ footer {
   font-weight: lighter;
 }
 
-.destaque2{
-   font-size: 15px;
+.destaque2 {
+  font-size: 15px;
   margin-bottom: 20px;
   text-align: center;
   font-weight: lighter;
@@ -239,147 +237,183 @@ footer {
   font-size: 1.5rem;
 }
 
-#menu{
+#menu {
   display: flex;
   align-items: center;
 }
 
-.destaques{
-    text-align: center;
-    padding: 60px 0;
+.destaques {
+  text-align: center;
+  padding: 60px 0;
 }
 
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 50px;
+.produtos {
+  text-align: center;
+  padding: 60px 0;
 }
 
-.card{
-    width: 320px;
-    background: #f5f5f5;
-    border: 1px solid #ddd;
-    overflow: hidden;
-    text-align: left;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
 }
 
-.imagem{
-    width: 100%;
-    height: 250px;
-    background: #b3b3b3;
+.card {
+  width: 320px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  text-align: left;
 }
 
-.card h3{
-    padding: 15px 15px 5px;
-    font-size: 24px;
+.imagem {
+  width: 100%;
+  height: 250px;
+  background: #b3b3b3;
 }
 
-.card p{
-    padding: 0 15px 15px;
-    font-size: 18px;
-    font-weight: bold;
+.card h3 {
+  padding: 15px 15px 5px;
+  font-size: 24px;
 }
 
-.title{
-    font-size:35px;
+.card p {
+  padding: 0 15px 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 35px;
   margin-bottom: 20px;
   text-align: center;
   font-weight: lighter;
 }
- .btn-produtos{
-    width: 200px;
-    height: 60px;
-    background: #000;
-    color: #fff;
-    border: none;
-    border-radius: 12px;
-    font-size: 24px;
-    font-weight: 600;
-    cursor: pointer;
+.btn-produtos {
+  width: 200px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.produtos {
+  text-align: center;
+}
+
+.produto {
+  width: 180px;
+  border: 1px solid #ccc;
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+  text-align: left;
+}
+
+.imagem {
+  width: 100%;
+  height: 250px;
+  background-color: #d9d9d9;
+}
+
+.tag {
+  background-color: #ccc;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.produto h3 {
+  font-size: 15px;
+  margin: 8px;
+}
+
+.produto p {
+  margin: 8px;
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 60px;
+  margin: 40px 0;
+}
+
+.cards-produtos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 48px;
+  margin: 48px, 220px, 12px, 220px;
+}
+
+.card-produtos {
+  width: 245px;
+  height: 350px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  #menu-btn {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    flex-direction: column;
+    background: var(--claro);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+  }
+  nav.ativo {
     display: flex;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .galeria {
+    grid-template-columns: 1fr;
     justify-content: center;
-    align-items: center;
+  }
 }
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+/* RESPONSIVIDADE - TABLET */
+@media (min-width: 768px) and (max-width: 425px) {
 }
+/* Celular */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
 
-body{
-    background:#f5f5f5;
-}
+  .cards {
+    flex-direction: column;
+  }
 
-h1{
-    text-align:center;
-    margin-bottom:15px;
-}
+  .menu {
+    display: none;
+  }
 
-.destaques,
-.produtos{
-    width:80%;
-    margin:50px auto;
-}
-
-.destaques p{
-    text-align:center;
-    margin-bottom:30px;
-}
-
-.cards{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    flex-wrap:wrap;
-}
-
-.card{
-    width:250px;
-    border:1px solid #ddd;
-    background:white;
-}
-
-.imagem{
-    height:180px;
-    background:#cfcfcf;
-}
-
-.card h3,
-.card p{
-    padding:10px;
-}
-
-.produto{
-    width:180px;
-    border:1px solid #ddd;
-    background:white;
-    position:relative;
-}
-
-.imagem-produto{
-    height:250px;
-    background:#d9d9d9;
-}
-
-.tag{
-    position:absolute;
-    top:5px;
-    left:5px;
-    background:#ccc;
-    padding:3px 8px;
-    font-size:12px;
-    border-radius:3px;
-}
-
-.produto h3,
-.produto p{
-    padding:8px;
-}
-
-.produtos h1{
-    font-size:60px;
-    margin-bottom:40px;
+  .menu-mobile {
+    display: block;
+  }
 }

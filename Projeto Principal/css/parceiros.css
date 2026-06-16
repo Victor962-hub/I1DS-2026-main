@@ -472,4 +472,59 @@ button {
 .container3 {
   padding: 90px 8%;
 }
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+#menu-btn {
+display: block;
+}
 
+nav{
+display: none;
+position: absolute;
+top: 85px;
+right: 20px;
+flex-direction: column;
+background: var(--claro);
+padding: 25px;
+border-radius: 20px;
+box-shadow: var(--sombra);
+}
+nav.ativo{
+display: flex;
+}
+.hero h1 {
+font-size: 38px;
+}
+.hero p{
+font-size: 18px;
+}
+h2 {
+font-size: 24px;
+}
+.galeria{
+grid-template-columns: 1fr;
+justify-content: center;
+}
+}
+/* RESPONSIVIDADE - TABLET */
+@media (min-width: 768px)and (max-width: 425px) {
+
+}
+/* Celular */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+}

@@ -1,11 +1,12 @@
-const botao = document.getElementById("tema");
+const botao = document.getElementById("tema-btn");
+const icone = document.getElementById("icone-tema");
 
 botao.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
+    document.body.classList.toggle("dark-theme");
 
-    if (document.body.classList.contains("dark")) {
-        botao.textContent = "☀️ Modo Claro";
+    if (document.body.classList.contains("dark-theme")) {
+        icone.src = "sol.png";
     } else {
-        botao.textContent = "🌙 Modo Escuro";
+        icone.src = "lua.png";
     }
 });

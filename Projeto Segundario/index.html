@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Modo Dark e Light</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode / Light Mode</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button id="tema">🌙 Alterar Tema</button>
 
-    <h1>Meu Site</h1>
-    <p>Exemplo de tema claro e escuro.</p>
+    <div class="container">
+        <h1>Bem-vindo!</h1>
 
-    <script src="script.js"></script>
+        <div class="card">
+            <h2>Exemplo de Card</h2>
+            <p>Esta é uma demonstração de tema claro e escuro utilizando variáveis CSS.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+
+        <button id="themeButton">🌙 Modo Escuro</button>
+    </div>
+
+    <div class="container-cards">
+
+    <div class="card">
+        <div class="icone">🧭</div>
+        <h2>Endereço</h2>
+        <p>Centro Empresarial</p>
+    </div>
+
+    <div class="card">
+        <div class="icone">📞</div>
+        <h2>Contato</h2>
+        <p>Atendimento no local</p>
+    </div>
+
+</div>
+
+<button id="tema-btn">
+    <img id="icone-tema" src="lua.png" alt="Tema">
+</button>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

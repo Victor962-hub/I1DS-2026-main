@@ -10,6 +10,17 @@
   gradienbody: rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.91);
 }
 
+.dark-theme {
+    --bg-color: #121212;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -269,7 +280,7 @@ footer {
     background: white;
 }
 
-.icone{
+.icone1{
     width: 90px;
     height: 90px;
     background: #e5e5e5;
@@ -324,7 +335,7 @@ iframe {
     background: white;
 }
 
-.icone{
+.icone2{
     width: 90px;
     height: 90px;
     background: #e5e5e5;
@@ -394,6 +405,113 @@ iframe {
   width: 80px;
   height: 80px;
   background-color: #ddd;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dark{
+
+}
+
+.light{
+
+}
+.menu-mobile{
+display: none;
+}
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+#menu-btn {
+display: block;
+}
+
+nav{
+display: none;
+position: absolute;
+top: 85px;
+right: 20px;
+flex-direction: column;
+background: var(--claro);
+padding: 25px;
+border-radius: 20px;
+box-shadow: var(--sombra);
+}
+nav.ativo{
+display: flex;
+}
+.hero h1 {
+font-size: 38px;
+}
+.hero p{
+font-size: 18px;
+}
+h2 {
+font-size: 24px;
+}
+.galeria{
+grid-template-columns: 1fr;
+justify-content: center;
+}
+}
+/* Celular */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+  #menu-btn {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    flex-direction: column;
+    background: var(--claro);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: var(--sombra);
+  }
+  nav.ativo {
+    display: flex;
+  }
+  .hero h1 {
+    font-size: 38px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+ .hero{
+  height: 434px;
+  }
+}
+
+.bolas {
+  width: 80px;
+  height: 80px;
+  background-color: #535353;
   border-radius: 50%;
 
   display: flex;

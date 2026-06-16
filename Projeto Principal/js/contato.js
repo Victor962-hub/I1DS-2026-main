@@ -27,6 +27,7 @@ document.getElementById("formContato").addEventListener("submit", function (e) {
 // DARK MODE
 // =========================
 
+/*
 const darkBtn = document.getElementById("darkModeBtn");
 const logo = document.getElementById("logo");
 
@@ -50,4 +51,22 @@ darkBtn.addEventListener("click", () => {
     logo.src = "img/logo-light.png";
   }
 
+});
+
+*/
+
+
+const btnMenu = document.getElementById("menu-mobile");
+
+btnMenu.addEventListener("click", (e) => {
+  e.preventDefault();
+  console.log("reconheceu o clique");
+
+  let statusMenu = window.getComputedStyle(menu).display;
+
+  if (statusMenu === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "flex";
+  }
 });

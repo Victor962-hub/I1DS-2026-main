@@ -1,24 +1,12 @@
-const darkBtn = document.getElementById("darkModeBtn");
-const logo = document.getElementById("logo");
+const botao = document.getElementById("tema-btn");
+const icone = document.getElementById("icone-tema");
 
-darkBtn.addEventListener("click", () => {
+botao.addEventListener("click", () => {
+    document.body.classList.toggle("dark-theme");
 
-  document.body.classList.toggle("dark-mode");
-
-  // MODO ESCURO
-  if (document.body.classList.contains("dark-mode")) {
-
-    darkBtn.innerHTML = "☀️";
-
-    // troca logo
-    logo.src = "img/logo-dark.png";
-
-  } else {
-
-    darkBtn.innerHTML = "🌙";
-
-    // volta logo clara
-    logo.src = "img/logo-light.png";
-  }
-
+    if (document.body.classList.contains("dark-theme")) {
+        icone.src = "sol.png";
+    } else {
+        icone.src = "lua.png";
+    }
 });

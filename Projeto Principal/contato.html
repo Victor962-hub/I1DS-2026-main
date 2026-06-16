@@ -23,13 +23,18 @@
             <a href="sobrenos.html">Sobre Nós</a>
             <a href="parceirosBlack.html"><img src="img/Switch.png"></a>
         </nav>
+
+        <button class="menu-mobile" id="menu-mobile">
+            [X]
+        </button>
+
     </header>
 
     <!-- HERO -->
     <section class="conteudo">
 
         <div class="texto">
-            <h1>Fale com (Nome da empresa)</h1>
+            <h1>Fale com [Empresa]</h1>
 
             <p>
                 Atendimento rápido para dúvidas, tamanhos, disponibilidade e pedidos.
@@ -37,8 +42,8 @@
             <br>
             <br>
             <div class="hero-button">
-                <a href="#" class="btn-dark">Enviar mensagem</a>
-                <a href="#" class="btn-light">Atendimento</a>
+                <a href="#servicos" class="btn-dark">Enviar mensagem</a>
+                <a href="#atendimento" class="btn-light">Atendimento</a>
             </div>
         </div>
 
@@ -61,7 +66,8 @@
         <form id="formContato">
             <input type="text" required placeholder="Digite seu nome..." id="nome" name="nome">
             <input type="email" required placeholder="Digite seu E-mail.." id="email" name="email">
-            <input type="telefone" required placeholder="Digite seu Telefone (WhatsApp).." id="telefone" name="telefone">
+            <input type="telefone" required placeholder="Digite seu Telefone (WhatsApp).." id="telefone"
+                name="telefone">
             <textarea placeholder="Digite sua Mensagem..." required id="mensagem" name="mensagem"></textarea>
             <div class="botoes">
                 <button id="button1" type="reset">Limpar</button>
@@ -71,9 +77,8 @@
 
 
     </section>
-    <section class="container container" style="margin-top: 2%; text-align: center; align-items: center; padding: 20px 150px; 
-    gap: 45px;">
-        <div class="container-beneficios">
+    <section class="container">
+        <div class="container-beneficios" id="atendimento">
 
             <div class="item-beneficio">
                 <div class="icone"><img src="img/Chat icon.png" alt="Alvo"></div>
@@ -115,7 +120,7 @@
 
     </footer>
 
-    <script scr="js/contato.js"></script>
+    <script src="js/contato.js"></script>
 </body>
 
 </html>
