@@ -287,47 +287,99 @@ footer {
   text-align: center;
   font-weight: lighter;
 }
- 
-
-.produtos{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.card{
-    width: 180px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: white;
-    position: relative;
-}
-
-.desconto{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    background: #ddd;
-    padding: 3px 6px;
-    font-size: 12px;
-}
-
-.imagem{
-    height: 220px;
-    background: #e5e5e5;
+ .btn-produtos{
+    width: 200px;
+    height: 60px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card h3{
-    font-size: 16px;
-    margin: 10px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+body{
+    background:#f5f5f5;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.destaques,
+.produtos{
+    width:80%;
+    margin:50px auto;
+}
+
+.destaques p{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    border:1px solid #ddd;
+    background:white;
+}
+
+.imagem{
+    height:180px;
+    background:#cfcfcf;
+}
+
+.card h3,
 .card p{
-    font-weight: bold;
-    margin: 10px;
-    gap: 50px;
+    padding:10px;
+}
+
+.produto{
+    width:180px;
+    border:1px solid #ddd;
+    background:white;
+    position:relative;
+}
+
+.imagem-produto{
+    height:250px;
+    background:#d9d9d9;
+}
+
+.tag{
+    position:absolute;
+    top:5px;
+    left:5px;
+    background:#ccc;
+    padding:3px 8px;
+    font-size:12px;
+    border-radius:3px;
+}
+
+.produto h3,
+.produto p{
+    padding:8px;
+}
+
+.produtos h1{
+    font-size:60px;
+    margin-bottom:40px;
 }
