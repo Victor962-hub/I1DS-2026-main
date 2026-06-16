@@ -371,3 +371,21 @@ iframe {
     margin: 50px 0;
 }
 
+.subtitulo {
+  color:gray
+}
+
+.container-beneficios{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  text-align: center;
+  
+}
+
+.item-beneficio {
+                    
+  max-width: 300px;      
+  align-items: center;
+  justify-content: center;
+}
