@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Principal</title>
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -21,13 +22,13 @@
             <a href="contato.html">Contato</a>
             <a href="localizacao.html">Localização</a>
             <a href="sobrenos.html">Sobre Nós</a>
-            <button id="tema-btn">
-                <img id="icone-tema" src="lua.png" alt="Tema">
+            <button id="tema-btn" class="tema-btn" aria-label="Alternar tema">
+                <img id="icone-tema" src="img/lua.png" alt="Ícone do tema">
             </button>
         </nav>
-        
+
         <button class="menu-mobile" id="menu-mobile">
-            [X]
+            <img src="img/menuLight.png" alt="Ícone do menu">
         </button>
     </header>
 
@@ -41,8 +42,8 @@
 
             </p>
             <div class="her0-button">
-                <a href="contato.html" class="btn-dark">Falar com a equipe</a>
-                <a href="produtos.html" class="btn-light">Ver produtos</a>
+                <a href="contato.html" class="btn-light">Falar com a equipe</a>
+                <a href="produtos.html" class="btn-dark">Ver produtos</a>
 
             </div>
         </div>
@@ -190,31 +191,35 @@
 
             <section class="container container" style="margin-top: 2%; text-align: center; align-items: center; padding: 20px 150px; 
     gap: 45px;">
-        <div class="container-beneficios" id="atendimento">
+                <div class="container-beneficios" id="atendimento">
 
-            <div class="item-beneficio">
-                <a href="localizacao.html" class="bola" style="text-decoration: none;" ><h3>🧭</h3></a>
-                <h3>Endereço</h3>
-                <p class="subtitulo">Centro Empresarial</p>
-                <h3 class="destaque" style="margin-top: 5%;">Endereço</h3>
-            </div>
+                    <div class="item-beneficio">
+                        <a href="localizacao.html" class="bola" style="text-decoration: none;">
+                            <h3>🧭</h3>
+                        </a>
+                        <h3>Endereço</h3>
+                        <p class="subtitulo">Centro Empresarial</p>
+                        <h3 class="destaque" style="margin-top: 5%;">Endereço</h3>
+                    </div>
 
-            <div class="item-beneficio">
-                <a href="contato.html" class="bola" style="text-decoration: none;"><h3>📞</h3></a>
-                <h3>Contato local</h3>
-                <p class="subtitulo">Atendimento no local</p>
-                <h3 class="destaque" style="margin-top: 5%;">Contato</h3>
-            </div>
+                    <div class="item-beneficio">
+                        <a href="contato.html" class="bola" style="text-decoration: none;">
+                            <h3>📞</h3>
+                        </a>
+                        <h3>Contato local</h3>
+                        <p class="subtitulo">Atendimento no local</p>
+                        <h3 class="destaque" style="margin-top: 5%;">Contato</h3>
+                    </div>
 
-            
 
-        </div>
-    </section>
+
+                </div>
+            </section>
 
             <footer>
-                <p style="color:black;">""Calçados &copy 2026 | Parcerias - Distribuição</p>
-                <p style="color:black">Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
-                <p style="color:black"> Política de Privacidade - Termos de uso</p>
+                <p>""Calçados &copy 2026 | Parcerias - Distribuição</p>
+                <p>Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
+                <p> Política de Privacidade - Termos de uso</p>
 
             </footer>
 

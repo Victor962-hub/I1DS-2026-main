@@ -225,7 +225,7 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  border-color: var(--texto);
+  border-color: var(--bg-color);
 }
 
 .botoes {
@@ -249,9 +249,9 @@ textarea:focus {
 #button2 {
   width: 200px;
   height: 50px;
-  background: #0f172a;
+  background: #ffffff;
+  border: 1px solid black;
   color: var(--claro);
-  border: none;
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -259,7 +259,7 @@ textarea:focus {
 }
 
 button:hover {
-  background: var(--texto);
+  background: var(--bg-color);
 }
 #contato {
   display: block;
@@ -313,7 +313,15 @@ button:hover {
 
 .menu-mobile {
   display: none;
+  border: none;
+  background:transparent;
+
 }
+
+.menu-mobile:focus {
+  background: transparent;
+  border: none;
+} 
 
 .container {
   margin-top: 2%;
@@ -358,7 +366,7 @@ button:hover {
     top: 85px;
     right: 20px;
     flex-direction: column;
-    background: var(--claro);
+    background: var(--bg-color);
     padding: 25px;
     border-radius: 20px;
     box-shadow: var(--sombra);

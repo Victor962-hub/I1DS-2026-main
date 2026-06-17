@@ -11,12 +11,14 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/parceiros.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
     <header id="navbarr">
         <div class="logo">
-            <img src="img/bola cinza.png" alt="Local para insirir a logo da Empresa" width="100" />
+            <div class="bola"></div>
+
             <p id="nomeEmpresa">(Nome da Empresa)</p>
         </div>
 
@@ -26,9 +28,14 @@
             <a href="contato.html">Contato</a>
             <a href="localizacao.html">Localização</a>
             <a href="sobrenos.html">Sobre Nós</a>
-            <a href="parceirosBlack.html"><img src="img/Switch.png"></a>
+            <button id="tema-btn" class="tema-btn" aria-label="Alternar tema">
+                <img id="icone-tema" src="img/lua.png" alt="Ícone do tema">
+            </button>
         </nav>
-
+        <button class="menu-mobile" id="menu-mobile">
+            <img src="img/menuLight.png" alt="Ícone do menu">
+        </button>
+        
 
     </header>
     <section id="home" class="hero">
@@ -36,12 +43,10 @@
         <div class="hero-content">
             <h1>Parcerias que impulsionam seu negócio </h1>
             <a href="#funcionar" class="btn-light">Como Funciona?</a>
-            <br>
-            <br>
+           
             <h3>Trabalhe com (Nome da empresa) e fortaleça sua marca com produtos de
                 qualidade, suporte e distribuição..</h3>
-            <br>
-            <br>
+            
             <a href="#beneficios" class="btn-dark">Ver Benefícios</a>
             <a href="#sejaparceiro" class="btn-dark">Quero Ser Parceiro</a>
             <a href="#sugestao" class="btn-dark">Sugestão para Parceiros</a>
@@ -59,7 +64,7 @@
 
         <h2 id="funcionar" style="font-size: 50px; margin-top: 5%;">Como Funciona</h2>
 
-        <p style="margin-top: 2%;" >Um fluxo simples para acelerar a parceria.</p>
+        <p style="margin-top: 2%;">Um fluxo simples para acelerar a parceria.</p>
     </div>
 
     <section class="container detalhes" style="margin-top: 5%;">
@@ -113,9 +118,9 @@
 
     </section>
 
-    <div  style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5%;">
+    <div class="textin" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 5%;">
 
-        <h1  style="font-size:40 px;">Oque Você ganha com a parceria.</h1>
+        <h1 style="font-size:40 px;">Oque Você ganha com a parceria.</h1>
 
         <p id="suubtitulo" style="margin-top: 2%;">Benefícios pensados para aumentar vendas e reduzir atrito na
             operação.</p>
@@ -125,8 +130,8 @@
     <section class="container container" style="margin-top: 2%; text-align: center; align-items: center; padding: 20px 150px; 
     gap: 45px;">
 
-        
-<div class="container text-center" style="">
+
+        <div class="container text-center" style="">
             <div class="row align-items-center">
                 <div class="col">
                     <div class="bola container" style="font-size:50px; margin-top: 5%;">🎯</div>
@@ -188,30 +193,28 @@
 
     <section>
         <div id="servicos " class="container2">
-            <div  id="sejaparceiro">
+            <div id="sejaparceiro">
                 <h2>Seja um Parceiro</h2>
                 <h3>Envie seus dados e entraremos em contato para apresentar as opções disponíveis.</h3>
             </div>
-            <div   class="quadrado1"></div>
+            <div class="quadrado1"></div>
     </section>
 
-     <section id="contato" class="container1">
+    <section id="contato" class="container1">
 
         <form id="formContato">
             <input type="text" required placeholder="Digite seu Nome Completo:" id="nome" name="nome">
             <input type="telefone" required placeholder="Digite seu telefone(WhatsApp):" id="telefone" name="telefone">
             <input type="text" required placeholder="Digite sua Cidade e Estado:" id="Cidade/Estado"
                 name="Cidade/Estado">
-                 <input type="email" required placeholder="Digite seu E-mail:" id="email"
-                name="email"> 
-                 <input type="text" required placeholder="Digite seu tipo de Parceria:" id="parceria"
-                name="parceria"> 
-                 <input type="telefone" required placeholder="Digite o Tamanho Estimado do negócio:" id="negocio"
+            <input type="email" required placeholder="Digite seu E-mail:" id="email" name="email">
+            <input type="text" required placeholder="Digite seu tipo de Parceria:" id="parceria" name="parceria">
+            <input type="telefone" required placeholder="Digite o Tamanho Estimado do negócio:" id="negocio"
                 name="negocio">
 
             <div class="botoes">
                 <button class="btn-dark" style=" margin-top: 5%; display: flex;">Enviar Solicitação</button>
-                
+
         </form>
 
 
@@ -223,14 +226,14 @@
         <div class="imagem"></div>
 
         <div class="conteudo1">
-            <h1><strong>Categorias que mais vendem para parceiros</strong></h1>
+            <h1>Categorias que mais vendem para parceiros</h1>
 
             <p>Sugestões iniciais para acelerar o começo das operações. </p>
         </div>
     </section>
 
     <div id="servicos" class="container3">
-        
+
         <div class="cards">
             <div class="card">
                 <img src="img/quadrado cinza.png" alt="Ilustração de produto premium">
@@ -283,13 +286,14 @@
 
     <footer id="rodape">
 
-        <p style="color:black">""Calçados &copy 2026 | Parcerias - Distribuição</p>
-        <p style="color:black">Contato: Parcerias@"".com | Endereço: Consult e nossas Unidades</p>
-        <p style="color:black"> Política de Privacidade - Termos de uso</p>
+        <p>""Calçados &copy 2026 | Parcerias - Distribuição</p>
+        <p>Contato: Parcerias@"".com | Endereço: Consult e nossas Unidades</p>
+        <p> Política de Privacidade - Termos de uso</p>
 
     </footer>
 
 
+    <script src="js/menu.js"></script>
     <script src="js/parceiros.js"></script>
 </body>
 

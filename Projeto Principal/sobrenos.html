@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/sobrenos.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -16,26 +17,32 @@
         </div>
 
         <nav id="menu">
-            <a href="Menu.html">Menu</a>
+            <a href="menu.html">Menu</a>
             <a href="parceiros.html">Parceiros</a>
             <a href="produtos.html">Produtos</a>
             <a href="contato.html">Contato</a>
             <a href="localizacao.html">Localização</a>
-            <a href="parceirosBlack.html"><img src="img/Switch.png"></a>
+            <button id="tema-btn" class="tema-btn" aria-label="Alternar tema">
+                <img id="icone-tema" src="img/lua.png" alt="Ícone do tema">
+            </button>
         </nav>
+        <button class="menu-mobile" id="menu-mobile">
+            <img src="img/menuLight.png" alt="Ícone do menu">
+        </button>
     </header>
-     <section class="conteudo">
+    <section class="conteudo">
 
         <div class="texto">
             <h1>Conforto que vira memórias</h1>
 
             <p>
-               A (Nome da empresa) nasceu de um sonho: transformar cada passo em uma experiência leve, resistente e cheia de estilo.
+                A (empresa) nasceu de um sonho: transformar cada passo em uma experiência leve, resistente e cheia de
+                estilo.
             </p>
             <br>
             <br>
             <div class="hero-button">
-                <a href="#nossaHistoria" class="btn-dark" >Nossa história</a>
+                <a href="#nossaHistoria" class="btn-dark">História</a>
 
             </div>
         </div>
@@ -46,55 +53,55 @@
     </section>
 
 
-       <section class="detalhes" style="margin-top: 5%;">
+    <section class="detalhes" style="margin-top: 5%;">
 
-                            <div class="card">
-                                <div class="icone"></div>
+        <div class="card">
+            <div class="icone"></div>
 
-                                <div class="info">
-                                    <h3>Principais Fundadores:</h3>
-                                    <p>(nome dos Fundadores)</p>
-                                  
-                                </div>
-                            </div>
+            <div class="info">
+                <h3>Principais Fundadores:</h3>
+                <p>(nome dos Fundadores)</p>
 
-                            <div class="card">
-                                <div class="icone"></div>
+            </div>
+        </div>
 
-                                <div class="info">
-                                    <h3>Como surgimos !</h3>
-                                    <p>(como surgiu, escreva aqui)</p>
-                                  
-                                </div>
-                            </div>
+        <div class="card">
+            <div class="icone"></div>
 
-                            <div class="card">
-                                <div class="icone"></div>
+            <div class="info">
+                <h3>Como surgimos !</h3>
+                <p>(como surgiu, escreva aqui)</p>
 
-                                <div class="info">
-                                    <h3>Conquistas e Resultados</h3>
-                                    <p>(escreva aqui os prêmios, certificados ou marcos importantes da empresa)</p>
-                                  
-                                </div>
-                            </div>
+            </div>
+        </div>
 
-                            <div class="card">
-                                <div class="icone"></div>
+        <div class="card">
+            <div class="icone"></div>
 
-                                <div class="info">
-                                    <h3>Nossa Equipe</h3>
-                                    <p>(escreva aqui os funcionarios da empresa)</p>
-                                  
-                                </div>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                        </section>
-                        
-                      
+            <div class="info">
+                <h3>Conquistas e Resultados</h3>
+                <p>(escreva aqui os prêmios, certificados ou marcos importantes da empresa)</p>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="icone"></div>
+
+            <div class="info">
+                <h3>Nossa Equipe</h3>
+                <p>(escreva aqui os funcionarios da empresa)</p>
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
 
     <h2 id="nossaHistoria" class="titulo" style="margin-top: 10%;">Nossa História</h2>
 
@@ -102,30 +109,31 @@
         <p>Insira a história da empresa aqui!</p>
     </div>
 
-<div class="cards">
+    <div class="cards">
 
-    <div class="quadrado1">
-        <h3>Missão:</h3>
-        <p>Nosso objetivo</p>
+        <div class="quadrado1">
+            <h3>Missão:</h3>
+            <p>Nosso objetivo</p>
+        </div>
+
+        <div class="quadrado2">
+            <h3>Valores:</h3>
+            <p>Nosso objetivo</p>
+        </div>
+
     </div>
 
-    <div class="quadrado2">
-        <h3>Valores:</h3>
-        <p>Nosso objetivo</p>
-    </div>
 
-</div>
-
-    
 
     <footer id="rodape">
 
-        <p style="color:black">""Calçados &copy 2026 | Parcerias - Distribuição</p>
-        <p style="color:black">Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
-        <p style="color:black"> Política de Privacidade - Termos de uso</p>
+        <p>""Calçados &copy 2026 | Parcerias - Distribuição</p>
+        <p>Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
+        <p> Política de Privacidade - Termos de uso</p>
 
     </footer>
 
+    <script src="js/menu.js"></script>
     <script src="js/sobrenos.js"></script>
 </body>
 

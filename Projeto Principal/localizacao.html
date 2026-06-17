@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Localização</title>
     <link rel="stylesheet" href="css/localizacao.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -22,8 +23,14 @@
             <a href="produtos.html">Produtos</a>
             <a href="contato.html">Contato</a>
             <a href="sobrenos.html">Sobre Nós</a>
-            <a href="parceirosBlack.html"><img src="img/Switch.png"></a>
+            <button id="tema-btn" class="tema-btn" aria-label="Alternar tema">
+                <img id="icone-tema" src="img/lua.png" alt="Ícone do tema">
+            </button>
+            
         </nav>
+        <button class="menu-mobile" id="menu-mobile">
+            <img src="img/menuLight.png" alt="Ícone do menu">
+        </button>
     </header>
 
     <!-- HERO -->
@@ -39,7 +46,7 @@
             <br>
             <br>
             <div class="hero-button">
-                <a href="#Verrotas" class="btn-dark">Ver rotas</a>
+                <a href="#Verrotas" class="btn-dark">Ver rotas </a>
                 <a href="#Detalhesdaunidade" class="btn-light">Detalhes da unidade</a>
             </div>
         </div>
@@ -52,7 +59,7 @@
     <!-- TEXTO -->
     <br>
     <br>
-    <div class="quadrados" style="margin-top: 5%;">
+    <div class="quadrados">
         <h2> Estamos no coração da cidade com atendimento rápido, variedade em calçados e ofertas imperdíveis. </h2>
     </div>
 
@@ -71,52 +78,53 @@
         </iframe>
         <h4 style="margin-top: 7%;">Detalhes da Unidade<h4 id="Detalhesdaunidade">
                 <h5>Tudo o que você precisa para chegar sem complicação.<h5>
-                </section>
+    </section>
 
 
 
-                        <section class="detalhes" id="detalhes">
+    <section class="detalhes" id="detalhes">
 
-                            <div class="card">
-                                <div class="icone"></div>
+        <div class="card">
+            <div class="icone"></div>
 
-                                <div class="info">
-                                    <h3>Endereço</h3>
-                                    <p>Av. Principal, 123 - Centro</p>
-                                    <p>[CEP] - [Cidade/UF]</p>
-                                    <p>📍 ⏰ 📞 💳</p>
-                                </div>
-                            </div>
+            <div class="info">
+                <h3>Endereço</h3>
+                <p>Av. Principal, 123 - Centro</p>
+                <p>[CEP] - [Cidade/UF]</p>
+                <p>📍 ⏰ 📞 💳</p>
+            </div>
+        </div>
 
-                            <div class="card">
-                                <div class="icone"></div>
+        <div class="card">
+            <div class="icone"></div>
 
-                                <div class="info">
-                                    <h3>Horários</h3>
-                                    <p>Atendimento ao cliente</p>
-                                    <p>Seg a Sex: 09:00–19:00</p>
-                                    <p>Sábado: 09:00–16:00</p>
-                                    <p>📍 ⏰ 📞 💳</p>
-                                </div>
-                            </div>
+            <div class="info">
+                <h3>Horários</h3>
+                <p>Atendimento ao cliente</p>
+                <p>Seg a Sex: 09:00–19:00</p>
+                <p>Sábado: 09:00–16:00</p>
+                <p>📍 ⏰ 📞 💳</p>
+            </div>
+        </div>
 
-                        </section>
-
-
-                        
-                        <footer id="rodape">
-
-                            <p style="color:black;">""Calçados &copy 2026 | Parcerias - Distribuição</p>
-                            <p style="color:black">Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
-                            <p style="color:black"> Política de Privacidade - Termos de uso</p>
-
-                        </footer>
+    </section>
 
 
 
+    <footer id="rodape">
 
-                        <script src="js/script.js"></script>
+        <p>""Calçados &copy 2026 | Parcerias - Distribuição</p>
+        <p>Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
+        <p> Política de Privacidade - Termos de uso</p>
+
+    </footer>
+
+
+
+
+    <script src="js/menu.js"></script>
+    <script src="js/localizacao.js"></script>
 
 </body>
 
-</html> 
+</html>

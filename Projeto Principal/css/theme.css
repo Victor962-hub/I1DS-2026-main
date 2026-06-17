@@ -1,0 +1,93 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #0f172a;
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --footer-bg: #f4f4f4;
+  --button-bg: #000000;
+  --button-light-bg: rgb(255, 255, 255);
+  --link-color: #0f172a;
+  --panel-bg: rgba(255, 255, 255, 0.95);
+}
+
+.dark-theme {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --header-bg: rgba(18, 18, 18, 0.92);
+  --card-bg: rgba(24, 24, 24, 0.95);
+  --footer-bg: #1b1b1b;
+  --button-bg: #494949;
+  --button-light-bg: rgba(255, 255, 255, 0.12);
+  --link-color: #f5f5f5;
+  --panel-bg: rgba(30, 30, 30, 0.92);
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+body.dark-theme header,
+body.dark-theme footer,
+body.dark-theme .card,
+body.dark-theme .container,
+body.dark-theme .conteudo,
+body.dark-theme .hero,
+body.dark-theme .detalhes,
+body.dark-theme .quadrado,
+body.dark-theme .quadrado1,
+body.dark-theme .quadrado2,
+body.dark-theme form,
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme .parceiros {
+  background: var(--panel-bg) !important;
+  color: var(--text-color) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+header {
+  background: var(--header-bg) !important;
+}
+
+nav a,
+header .logo p,
+footer,
+body,
+button,
+input,
+textarea,
+label {
+  color: var(--text-color) !important;
+}
+
+nav a {
+  color: var(--link-color) !important;
+}
+
+.btn-dark {
+  background: var(--button-bg) !important;
+  color: #ffffff !important;
+}
+
+.btn-light {
+  background: var(--button-light-bg) !important;
+  color: var(--text-color) !important;
+}
+
+.tema-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.tema-btn img {
+  width: 32px;
+  height: 32px;
+}

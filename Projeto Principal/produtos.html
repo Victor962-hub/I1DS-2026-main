@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
     <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 
 <body>
@@ -21,117 +22,123 @@
             <a href="contato.html">Contato</a>
             <a href="localizacao.html">Localização</a>
             <a href="sobrenos.html">Sobre Nós</a>
-            <a href="parceirosBlack.html"><img src="img/Switch.png"></a>
+            <button id="tema-btn" class="tema-btn" aria-label="Alternar tema">
+                <img id="icone-tema" src="img/lua.png" alt="Ícone do tema">
+            </button>
         </nav>
+        <button class="menu-mobile" id="menu-mobile">
+            <img src="img/menuLight.png" alt="Ícone do menu">
+        </button>
     </header>
-     <section class="conteudo">
+    <section class="conteudo">
 
         <div class="texto">
             <h1>Calçados com conforto, estilo e qualidade</h1>
 
             <p>
-             Encontre o seu próximo par: tênis, sandálias, botas e sapatos para todos os momentos.
+                Encontre o seu próximo par: tênis, sandálias, botas e sapatos para todos os momentos.
             </p>
             <br>
             <br>
             <div class="btn-prod">
-                    <a href="#produtos" class="btn-dark">Produtos</a>
+                <a href="#produtos" class="btn-dark">Produtos</a>
             </div>
         </div>
-        
-        
-        
+
+
+
         <div class="quadrado"></div>
-        
+
     </section>
-   <section class="destaques">
-    <h1>Destaques da semana</h1>
-    <p style="font-size: 60%;">Modelos selecionados para você comprar com confiança.</p>
+    <section class="destaques">
+        <h1>Destaques da semana</h1>
+        <p style="font-size: 60%;">Modelos selecionados para você comprar com confiança.</p>
 
-    <div class="cards">
-        <div class="card">
-            <div class="imagem"></div>
-            <h3>Tênis Casual Branco</h3>
-            <p>R$ 219,90 • 12x sem juros</p>
+        <div class="cards">
+            <div class="card">
+                <div class="imagem"></div>
+                <h3>Tênis Casual Branco</h3>
+                <p>R$ 219,90 • 12x sem juros</p>
+            </div>
+
+            <div class="card">
+                <div class="imagem"></div>
+                <h3>Sandália Rasteira Bege</h3>
+                <p>R$ 139,90 • Conforto diário</p>
+            </div>
+
+            <div class="card">
+                <div class="imagem"></div>
+                <h3>Sapato Social Marrom</h3>
+                <p>R$ 259,90 • Uso profissional</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1 style="font-size: 300%;">Produtos</h1>
+
+        <div class="cards-produtos">
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Tênis Casual Branco</h3>
+                <p>R$ 219,90 </p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Sandália Rasteira Bege</h3>
+                <p>R$ 139,90 </p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Bota de Couro legítimo</h3>
+                <p>R$ 169,90 </p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Bota infantil cinza</h3>
+                <p>R$ 179,90</p>
+            </div>
         </div>
 
-        <div class="card">
-            <div class="imagem"></div>
-            <h3>Sandália Rasteira Bege</h3>
-            <p>R$ 139,90 • Conforto diário</p>
+        <div class="cards-produtos">
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Tênis infantil</h3>
+                <p>R$ 149,90 </p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Rasteirinha preta</h3>
+                <p>R$ 139,90</p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Chinelo de dedo</h3>
+                <p>R$ 59,90</p>
+            </div>
+
+            <div class="card-produtos">
+                <div class="imagem"></div>
+                <h3>Papete infantil</h3>
+                <p>R$ 169,90</p>
+            </div>
         </div>
-
-        <div class="card">
-            <div class="imagem"></div>
-            <h3>Sapato Social Marrom</h3>
-            <p>R$ 259,90 • Uso profissional</p>
-        </div>
-
-    </div>
-</section>
-
-<section class="produtos" id="produtos">
-    <h1 style="font-size: 300%;">Produtos</h1>
-
-    <div class="cards-produtos">
-       <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Tênis Casual Branco</h3>
-            <p>R$ 219,90 </p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Sandália Rasteira Bege</h3>
-            <p>R$ 139,90 </p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Bota de Couro legítimo</h3>
-            <p>R$ 169,90 </p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Bota infantil cinza</h3>
-            <p>R$ 179,90</p>
-        </div>
-    </div>
-
-    <div class="cards-produtos">
-       <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Tênis infantil</h3>
-            <p>R$ 149,90 </p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Rasteirinha preta</h3>
-            <p>R$ 139,90</p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Chinelo de dedo</h3>
-            <p>R$ 59,90</p>
-        </div>
-
-        <div class="card-produtos">
-            <div class="imagem"></div>
-            <h3>Papete infantil</h3>
-            <p>R$ 169,90</p>
-        </div>
-    </div>
-</section>
+    </section>
     <footer id="rodape">
-        
-        <p style="color:black">""Calçados &copy 2026 | Parcerias - Distribuição</p>
-        <p style="color:black">Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
-        <p style="color:black"> Política de Privacidade - Termos de uso</p>
-        
+
+        <p>""Calçados &copy 2026 | Parcerias - Distribuição</p>
+        <p>Contato: Parcerias@"".com | Endereço: Consulte nossas Unidades</p>
+        <p> Política de Privacidade - Termos de uso</p>
+
     </footer>
+    <script src="js/menu.js"></script>
     <script src="js/produtos.js"></script>
 </body>
 
