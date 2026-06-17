@@ -314,14 +314,13 @@ button:hover {
 .menu-mobile {
   display: none;
   border: none;
-  background:transparent;
-
+  background: transparent;
 }
 
 .menu-mobile:focus {
   background: transparent;
   border: none;
-} 
+}
 
 .container {
   margin-top: 2%;
@@ -429,17 +428,15 @@ button:hover {
     width: 360px;
   }
   .container {
-
   }
   .container-beneficios {
     width: 360px;
     display: flex;
     flex-direction: column;
-      margin-top: 2%;
+    margin-top: 2%;
     text-align: center;
     align-items: center;
     padding: 20px 150px;
     gap: 45px;
   }
-  
 }
