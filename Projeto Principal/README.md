@@ -157,7 +157,7 @@ website-institucional/
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/website-institucional.git
+git https://github.com/Victor962-hub/I1DS-2026-main/tree/main/Projeto%20Principal
 ```
 
 ## 2. Acessar a pasta
