@@ -440,3 +440,17 @@ button:hover {
     gap: 45px;
   }
 }
+
+.bolas {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+}
